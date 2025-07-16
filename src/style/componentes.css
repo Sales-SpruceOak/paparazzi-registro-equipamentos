@@ -1,0 +1,135 @@
+.btn-cian {
+    background-color: #5AC8FA;
+    color: white;
+    border-radius: 56px;
+    padding: 1rem;
+    width: 200px;
+    border-style: none;
+    box-shadow: -10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-cian:hover {
+    background-color: #418caf;
+}
+
+.btn-login {
+    width: 80px;
+    background: rgba(2, 63, 129, 1);
+    box-shadow: -10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+    border-style: none;
+    color: white;
+}
+
+.btn-login:hover {
+    background-color: rgb(2, 51, 104);;
+}
+
+.Header {
+    color: white;
+    padding: 1vh;
+    height: 3em;
+    width: 100%;
+    background-color: rgba(90, 200, 250, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border: 4px solid rgba(255, 255, 255, 1);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.largeb{
+    width: 80vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.largeS{
+    width: 80vw !important;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.modal-content{
+    color: white;
+}
+
+.modal-body {
+    background-color: #023F81;
+}
+
+.PopupObj{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CD964 !important;
+    gap: 1em;
+    border-radius: 50px !important;
+    border: 5px solid #ffffff !important;
+}
+
+.editar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+}
+
+.editar img{
+    height: 40px;
+}
+
+.card-icon {
+    padding: 1em;
+}
+
+.card-icon img{
+    height: 100px;
+}
+
+.card-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+.card-body select{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.functionselect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 2em;
+}
+
+.functionselect .selecione{
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    padding: 1em;
+    box-shadow: -10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 56px;
+}
+
+.functionselect img {
+    height: 120px;
+}

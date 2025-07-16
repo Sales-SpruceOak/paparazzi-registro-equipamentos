@@ -1,0 +1,61 @@
+@import url(./style/componentes.css);
+@import url(./style/paginas.css);
+
+#root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000D1B;
+    background: linear-gradient(0deg, rgba(0, 13, 27, 1) 0%, rgba(2, 63, 129, 1) 100%);
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.bordaFixa {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: white;
+    border-style: solid;
+    pointer-events: none;
+    border-image: url(../src/assets/Background.svg) 30 repeat;
+    border-image-slice: 600;
+    border-image-outset: 5px;
+    border-style: solid;
+    border-right-width: 30px;
+    border-left-width: 30px;
+}
+
+.erro{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.erro a{
+    text-decoration: none;
+    color: #5AC8FA;
+}
+
+.Error404 {
+    margin-top: 10em;
+    color: white;
+}

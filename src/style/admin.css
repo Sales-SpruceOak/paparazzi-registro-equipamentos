@@ -1,0 +1,20 @@
+.admin .container-sm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.adminfuncoes{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em;
+    align-items: center;
+}
+
+.functionadmin {
+    margin-top: 7.5em;
+}

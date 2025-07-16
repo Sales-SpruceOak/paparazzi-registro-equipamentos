@@ -1,0 +1,47 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em;
+    align-items: center;
+}
+
+.senha {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 1em;
+    align-items: center;
+}
+
+.home .container-sm .Header img {
+    height: 2vh;
+}
+
+.home .container-sm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.hometitle {
+    color: white;
+    background-color:black;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-bottom: 4px solid rgba(255, 255, 255, 1);
+    border-left: 4px solid rgba(255, 255, 255, 1);
+    border-right: 4px solid rgba(255, 255, 255, 1);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 0.2em;
+    width: 250px;
+}
