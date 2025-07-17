@@ -16,12 +16,12 @@ import Admin from './routes/Admin.jsx';
 
 const router = createBrowserRouter([
   {
-    path: "/paparazzi-registro-equipamentos",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/paparazzi-registro-equipamentos",
+        path: "/",
         element: <Home />,
       },
       {
