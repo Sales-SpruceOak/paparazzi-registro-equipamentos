@@ -24,17 +24,17 @@ const Diario = () => {
 
 
 
-                <button type="button" class="btn btn-primary largeb" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <button type="button" className="btn btn-success largeb" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     CONFIRMAR INFORMAÇÕES
                 </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="exampleModalLabel">CONFIRMAR INFORMAÇÕES</h1>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div className="modal-dialog modal-dialog-centered">
+                        <div className="modal-content">
+                            <div className="modal-header">
+                                <h1 className="modal-title fs-5" id="exampleModalLabel">CONFIRMAR INFORMAÇÕES</h1>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
-                            <div class="modal-body">
+                            <div className="modal-body">
                                 <h5>Estado Selecionado:</h5> RN
                                 <br />
                                 <h5>Loja Selecionada:</h5> Hotel Serhs
@@ -44,9 +44,9 @@ const Diario = () => {
                                 <h5>Cartões SD Registrados:</h5> Cartão Serhs 01
                                 <h5>Baterias Registradas:</h5> Bateria Serhs 01
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
-                                <button type="button" class="btn btn-primary">Confirmar</button>
+                            <div className="modal-footer">
+                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+                                <button type="button" className="btn btn-primary">Confirmar</button>
                             </div>
                         </div>
                     </div>

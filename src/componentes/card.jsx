@@ -6,8 +6,8 @@ import Editar from '../assets/EditIcon.svg'
 
 const Card = ({ imagem, titulo, id, selecionado, numero, }) => {
     return (
-        <div class="card">
-            <div class="card-body">
+        <div className="card">
+            <div className="card-body">
                 <Selecao
                     titulo={titulo}
                     id={id}

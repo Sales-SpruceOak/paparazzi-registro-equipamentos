@@ -13,22 +13,22 @@ import { Link } from "react-router-dom";
 export default function Loginadmin() {
     return (
         <form className="login">
-            <div class="btn-usuarioloja">
+            <div className="btn-usuarioloja">
                 <Link to="/registrar_relatorio">
-                    <button type="submit" class="btn-cian">USUÁRIO LOJA</button>
+                    <button type="submit" className="btn-cian">USUÁRIO LOJA</button>
                 </Link>
             </div>
-            <div class="btn-administrador">
-                <button class="btn-cian" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">ADMINISTRADOR</button>
+            <div className="btn-administrador">
+                <button className="btn-cian" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">ADMINISTRADOR</button>
             </div>
             <div className="collapse senha" id="collapseExample">
-                <div class="senha-administrador">
-                    <label for="inputPassword2" class="visually-hidden">Password</label>
-                    <input type="password" class="form-control" id="inputPassword2" placeholder="Senha"></input>
+                <div className="senha-administrador">
+                    <label htmlFor="inputPassword2" className="visually-hidden">Password</label>
+                    <input type="password" className="form-control" id="inputPassword2" placeholder="Senha"></input>
                 </div>
-                <div class="btn-login">
+                <div className="btn-login">
                     <Link to="/administrativo">
-                        <button type="submit" class="btn-login">Login</button>
+                        <button type="submit" className="btn-login">Login</button>
                     </Link>
                 </div>
             </div>

@@ -17,14 +17,14 @@ const Admin = () => {
                     <img src={UserIcon} alt="." />
                 </div>
                 <div className="adminfuncoes">
-                <div class="btn-admincadastro">
-                    <Link to="/">
-                        <button type="submit" class="btn-cian">CADASTRO</button>
+                <div className="btn-admincadastro">
+                    <Link to="/cadastro">
+                        <button type="submit" className="btn-cian">CADASTRO</button>
                     </Link>
                 </div>
-                <div class="btn-adminrelatorios">
-                    <Link to="/">
-                        <button type="submit" class="btn-cian">RELATÓRIOS</button>
+                <div className="btn-adminrelatorios">
+                    <Link to="/relatorios">
+                        <button type="submit" className="btn-cian">RELATÓRIOS</button>
                     </Link>
                 </div>
                 </div>

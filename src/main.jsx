@@ -5,7 +5,7 @@ import App from './App.jsx';
 
 //importando dependências
 
-import {createBrowserRouter, Route, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Route, RouterProvider } from "react-router-dom";
 
 //importando paginas
 
@@ -13,6 +13,8 @@ import Home from "./routes/Home.jsx";
 import Diario from './routes/Diario.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
 import Admin from './routes/Admin.jsx';
+import Cadastro from './routes/Cadastro.jsx'
+import Relatorios from './routes/Relatorios.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
       {
         path: "administrativo",
         element: <Admin />,
+      },
+      {
+        path: "cadastro",
+        element: <Cadastro />,
+      },
+      {
+        path: "relatorios",
+        element: <Relatorios />,
       }
     ]
   },
